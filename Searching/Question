@@ -19,13 +19,16 @@
 10.Given an array of n numbers, give an algorithm for finding the first element in the array which is repeated. For example, in the array A = {3,2,1,2,2,3}, the first repeated
 number is 3 (not 2). That means, we need to return the first element among the repeated elements.
 
-11.For Problem-10, can we use sorting technique?
+11. Finding the Missing Number: We are given a list of n – 1 integers and these
+integers are in the range of 1 to n. There are no duplicates in the list. One of the integers is
+missing in the list. Given an algorithm to find the missing integer. Example: I/P:
+[1,2,4,6,3,7,8] O/P: 5     For Problem-10, can we use sorting technique?
 
-12. For Problem-10, can we use hashing technique?
+12. For Problem-11, can we use hashing technique?
 
-13. For Problem-10, can we improve the complexity? hint: Time Complexity: O(n), for scanning the complete array.
+13. For Problem-11, can we improve the complexity? hint: Time Complexity: O(n), for scanning the complete array.
 
-14.In Problem-10, if the sum of the numbers goes beyond the maximum allowed integer, then there can be integer overflow and we may not get the correct answer. Can we
+14.In Problem-11, if the sum of the numbers goes beyond the maximum allowed integer, then there can be integer overflow and we may not get the correct answer. Can we
 solve this problem? 
 
 15. Find the Number Occurring an Odd Number of Times: Given an array of positive integers, all numbers occur an even number of times except one number which occurs an odd number of times. Find the number in O(n) time & constant space. Example:
